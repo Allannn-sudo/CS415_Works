@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		038842750722D5ED8F6791BF /* UEMetadata in Resources */ = {isa = PBXBuildFile; fileRef = CF623CA38EDB2AE076C27084 /* UEMetadata */; };
+		60F04DB665108AADDA06E753 /* LaunchScreen.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = FE986297DDA2E2FD925CB687 /* LaunchScreen.storyboardc */; };
+		A6CD9E5ABB1C5493B172F9BF /* LaunchScreenIOS.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F4B5EFA0F3620439C656DC /* LaunchScreenIOS.png */; };
+		EDF1EB46DAE4D8B78B61A64D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425C8B511F26807F783F16E4 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32A822D77D5DDBA927DCFDC1 /* InfiniteMatrixGame_Development.xcconfig */ = {isa = PBXFileReference; explicitFileType = test.xcconfig; lastKnownFileType = text.xcconfig; name = InfiniteMatrixGame_Development.xcconfig; path = XcconfigsIOS/InfiniteMatrixGame_Development.xcconfig; sourceTree = "<group>"; };
+		425C8B511F26807F783F16E4 /* Assets.xcassets */ = {isa = PBXFileReference; explicitFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/Shared/Epic Games/UE_5.5/Engine/Build/IOS/Resources/Assets.xcassets"; sourceTree = "<absolute>"; };
+		779AD87F1441AE0227C07D85 /* InfiniteMatrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = InfiniteMatrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4BBB1BADE2D0E37A4335EA /* Info.Template.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; name = Info.Template.plist; path = ../../Build/IOS/UBTGenerated/Info.Template.plist; sourceTree = "<group>"; };
+		B1EDFC17F0694C82A4398651 /* InfiniteMatrixGame.xcconfig */ = {isa = PBXFileReference; explicitFileType = test.xcconfig; lastKnownFileType = text.xcconfig; name = InfiniteMatrixGame.xcconfig; path = XcconfigsIOS/InfiniteMatrixGame.xcconfig; sourceTree = "<group>"; };
+		C2F4B5EFA0F3620439C656DC /* LaunchScreenIOS.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = LaunchScreenIOS.png; path = "/Users/Shared/Epic Games/UE_5.5/Engine/Build/IOS/Resources/Graphics/LaunchScreenIOS.png"; sourceTree = "<absolute>"; };
+		CF623CA38EDB2AE076C27084 /* UEMetadata */ = {isa = PBXFileReference; explicitFileType = file.txt; lastKnownFileType = folder; name = UEMetadata; path = "/Users/Shared/Epic Games/UE_5.5/Engine/Build/IOS/Resources/UEMetadata"; sourceTree = "<absolute>"; };
+		CF746C0FF4BEC24D1E04EB4B /* InfiniteMatrix.uproject */ = {isa = PBXFileReference; explicitFileType = file.txt; lastKnownFileType = text; name = InfiniteMatrix.uproject; path = ../../InfiniteMatrix.uproject; sourceTree = SOURCE_ROOT; };
+		DDC71CCB24FE06EC3F2DDBCD /* InfiniteMatrixGame_Shipping.xcconfig */ = {isa = PBXFileReference; explicitFileType = test.xcconfig; lastKnownFileType = text.xcconfig; name = InfiniteMatrixGame_Shipping.xcconfig; path = XcconfigsIOS/InfiniteMatrixGame_Shipping.xcconfig; sourceTree = "<group>"; };
+		DF13F00D76EEE0E9778DD99C /* InfiniteMatrixGame_DebugGame.xcconfig */ = {isa = PBXFileReference; explicitFileType = test.xcconfig; lastKnownFileType = text.xcconfig; name = InfiniteMatrixGame_DebugGame.xcconfig; path = XcconfigsIOS/InfiniteMatrixGame_DebugGame.xcconfig; sourceTree = "<group>"; };
+		FE986297DDA2E2FD925CB687 /* LaunchScreen.storyboardc */ = {isa = PBXFileReference; explicitFileType = wrapper.storyboardc; name = LaunchScreen.storyboardc; path = "/Users/Shared/Epic Games/UE_5.5/Engine/Build/IOS/Resources/Interface/LaunchScreen.storyboardc"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		432E37A360CDBB297624F2A1 /* Xcconfigs */ = {
+			isa = PBXGroup;
+			children = (
+				B1EDFC17F0694C82A4398651 /* InfiniteMatrixGame.xcconfig */,
+				DF13F00D76EEE0E9778DD99C /* InfiniteMatrixGame_DebugGame.xcconfig */,
+				32A822D77D5DDBA927DCFDC1 /* InfiniteMatrixGame_Development.xcconfig */,
+				DDC71CCB24FE06EC3F2DDBCD /* InfiniteMatrixGame_Shipping.xcconfig */,
+			);
+			name = Xcconfigs;
+			sourceTree = "<group>";
+		};
+		4DEDC290478A14ACD7FFC75B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				779AD87F1441AE0227C07D85 /* InfiniteMatrix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D7BE1A1AAA2E56A3D00E9A6 = {
+			isa = PBXGroup;
+			children = (
+				CF746C0FF4BEC24D1E04EB4B /* InfiniteMatrix.uproject */,
+				4DEDC290478A14ACD7FFC75B /* Products */,
+				9A98C6F758248B929282F0F4 /* Resources */,
+				432E37A360CDBB297624F2A1 /* Xcconfigs */,
+				8761326CA27BC3479D5F77DA /* Metadata */,
+			);
+			sourceTree = "<group>";
+		};
+		8761326CA27BC3479D5F77DA /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				AC4BBB1BADE2D0E37A4335EA /* Info.Template.plist */,
+			);
+			name = Metadata;
+			sourceTree = "<group>";
+		};
+		9A98C6F758248B929282F0F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				425C8B511F26807F783F16E4 /* Assets.xcassets */,
+				FE986297DDA2E2FD925CB687 /* LaunchScreen.storyboardc */,
+				C2F4B5EFA0F3620439C656DC /* LaunchScreenIOS.png */,
+				CF623CA38EDB2AE076C27084 /* UEMetadata */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98E775637EC2A09326D79EBB /* InfiniteMatrixGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0BE0BB7CCFDBBC7BC802A10 /* Build configuration list for PBXNativeTarget "InfiniteMatrixGame" */;
+			buildPhases = (
+				B055560A1D2FBA372C966161 /* Resources */,
+				E9F948B72085DFA0DB31DC17 /* Copy Executable and Staged Data into .app */,
+				F339D03251EC416DDDE58F02 /* Generate dsym for archive, and strip */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfiniteMatrixGame;
+			productName = InfiniteMatrixGame;
+			productReference = 779AD87F1441AE0227C07D85 /* InfiniteMatrix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B3D6DDF5F12292E91A6BF60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					98E775637EC2A09326D79EBB = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E0D71732611E6E9773ECF9B6 /* Build configuration list for PBXProject "InfiniteMatrixGame (IOS)" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 6D7BE1A1AAA2E56A3D00E9A6;
+			productRefGroup = 4DEDC290478A14ACD7FFC75B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98E775637EC2A09326D79EBB /* InfiniteMatrixGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B055560A1D2FBA372C966161 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF1EB46DAE4D8B78B61A64D /* Assets.xcassets in Resources */,
+				60F04DB665108AADDA06E753 /* LaunchScreen.storyboardc in Resources */,
+				A6CD9E5ABB1C5493B172F9BF /* LaunchScreenIOS.png in Resources */,
+				038842750722D5ED8F6791BF /* UEMetadata in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E9F948B72085DFA0DB31DC17 /* Copy Executable and Staged Data into .app */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Executable and Staged Data into .app";
+			outputPaths = (
+				/dev/null,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -eo pipefail\nSRC_EXE=\"${UE_BINARIES_DIR}/${UE_UBT_BINARY_SUBPATH}\"\nDEST_EXE=\"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\nDEST_EXE_DIR=`dirname \"${DEST_EXE}\"`\n\necho Copying executable and any standalone dylibs into ${DEST_EXE_DIR} but do not overwrite unless src is newer\nmkdir -p \"${DEST_EXE_DIR}\"\nrsync -au \"${SRC_EXE}\" \"${DEST_EXE}\"\n\n# Skip syncing if desired\nif [[ ${UE_SKIP_STAGEDDATA_SYNC} -eq 1 ]]; then exit 0; fi\n\n# When building engine projects, like UnrealGame, we don't have data to stage unless something has specified UE_OVERRIDE_STAGE_DIR\nif [[ -z ${UE_OVERRIDE_STAGE_DIR} ]]; then \nSTAGED_DIR=\"${UE_PROJECT_DIR}/Saved/StagedBuilds/${UE_TARGET_PLATFORM_NAME}\"\nelse\n  STAGED_DIR=\"${UE_OVERRIDE_STAGE_DIR}\"\nfi\nif [[ -z ${STAGED_DIR} ]]; then exit 0; fi\n# Make sure the staged directory exists and has files in it\nif [[ ! -e \"${STAGED_DIR}\" || ! $(ls -A \"${STAGED_DIR}\") ]]; then \n  echo =========================================================================================\n  echo \"WARNING: To run, you must have a valid staged build directory. The Staged location is:\"\n  echo \"  ${STAGED_DIR}\"\n  echo \"Use the editor's Platforms menu, or run a command like::\"\n  echo \"./RunUAT.sh BuildCookRun -platform=IOS -project=<project> -build -cook -stage -pak\"\n  echo =========================================================================================\n  exit -0 \nfi\nif [[ -e \"${STAGED_DIR}/uecommandline.txt\" ]]; then\n  echo \"Syncing ${STAGED_DIR}/uecommandline.txt to ${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}\"\n  cp \"${STAGED_DIR}/uecommandline.txt\" \"${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}\"\nfi\n\necho \"Syncing ${STAGED_DIR}/cookeddata to ${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/cookeddata\"\nif [[ -e  \"${STAGED_DIR}/cookeddata\" ]]; then\nrsync -a --delete --exclude=\"/Info.plist\" --exclude=\"/Manifest_*\" --exclude=\"/*.app\" \"${STAGED_DIR}/cookeddata/\" \"${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/cookeddata\"\nelse\n  echo =========================================================================================\n  echo \"WARNING: To run, you must have a valid staged sync source directory. The Staged SyncSource location is:\"\n  echo \"${STAGED_DIR}/cookeddata\"\n  echo \"Use the editor's Platforms menu, or run a command like::\"\n  echo \"./RunUAT.sh BuildCookRun -platform=IOS -project=<project> -build -cook -stage -pak\"\n  echo =========================================================================================\n  exit -0 \nfi";
+		};
+		F339D03251EC416DDDE58F02 /* Generate dsym for archive, and strip */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"\"$(CONFIGURATION_BUILD_DIR)/$(EXECUTABLE_PATH)\"",
+			);
+			name = "Generate dsym for archive, and strip";
+			outputPaths = (
+				"\"$(DWARF_DSYM_FOLDER_PATH)/$(DWARF_DSYM_FILE_NAME)\"",
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# Run the wrapper dsym generator\n\"${UE_ENGINE_DIR}/Build/BatchFiles/Mac/GenerateUniversalDSYM.sh\" \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\" \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\nstrip -no_code_signature_warning -D \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\n\n# Remove any unused architectures from dylibs in the .app (param1) that don't match the executable (param2). Also error if a dylib is missing arches\n\"${UE_ENGINE_DIR}/Build/BatchFiles/Mac/ThinApp.sh\" \"${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}\" \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		35F6362A04B5C917BD659918 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC71CCB24FE06EC3F2DDBCD /* InfiniteMatrixGame_Shipping.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2KN6NW6F2Z;
+			};
+			name = Shipping;
+		};
+		400F8429D61181F2B0FC5CD3 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+			};
+			name = DebugGame;
+		};
+		9CC6AFCE052B39A0FB1C8E56 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32A822D77D5DDBA927DCFDC1 /* InfiniteMatrixGame_Development.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2KN6NW6F2Z;
+			};
+			name = Development;
+		};
+		C96555FC52E67F5BBFE74777 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF13F00D76EEE0E9778DD99C /* InfiniteMatrixGame_DebugGame.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2KN6NW6F2Z;
+			};
+			name = DebugGame;
+		};
+		E7D38A20BF445AE00FB5D9A3 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+			};
+			name = Shipping;
+		};
+		FD77022326A309AEF39BEA4D /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+			};
+			name = Development;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0D71732611E6E9773ECF9B6 /* Build configuration list for PBXProject "InfiniteMatrixGame (IOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400F8429D61181F2B0FC5CD3 /* DebugGame */,
+				FD77022326A309AEF39BEA4D /* Development */,
+				E7D38A20BF445AE00FB5D9A3 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		F0BE0BB7CCFDBBC7BC802A10 /* Build configuration list for PBXNativeTarget "InfiniteMatrixGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96555FC52E67F5BBFE74777 /* DebugGame */,
+				9CC6AFCE052B39A0FB1C8E56 /* Development */,
+				35F6362A04B5C917BD659918 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B3D6DDF5F12292E91A6BF60 /* Project object */;
+}

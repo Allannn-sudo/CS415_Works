@@ -1,0 +1,67 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "7ecbab9057eecc1788211ec8afe7939b8627762dc10d444a1744fbf034ca44a2"
+    }
+  ],
+  "containerPath" : "/Users/allannsudo/Documents/Unreal Projects/InfiniteMatrixStarter/Intermediate/ProjectFiles/InfiniteMatrix_Mac_InfiniteMatrixGame.xcworkspace",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : true,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "macosx",
+      "sdk" : "macosx15.2",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64",
+        "arm64e",
+        "x86_64",
+        "x86_64h"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/allannsudo/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/allannsudo/Library/Developer/Xcode/DerivedData/InfiniteMatrix_Mac_InfiniteMatrixGame-grulwnmppasusydcjpjslagxdfol/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/allannsudo/Library/Developer/Xcode/DerivedData/InfiniteMatrix_Mac_InfiniteMatrixGame-grulwnmppasusydcjpjslagxdfol/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Development",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION" : "YES",
+          "SYMROOT" : "/Users/allannsudo/Documents/Unreal Projects/InfiniteMatrixStarter/Binaries",
+          "UE_OVERRIDE_STAGE_DIR" : "/Users/allannsudo/Documents/Unreal Projects/InfiniteMatrixStarter/Saved/StagedBuilds/Mac",
+          "UE_XCODE_BUILD_MODE" : "Package"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
