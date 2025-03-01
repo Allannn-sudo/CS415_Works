@@ -1,0 +1,67 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "2bed8485536aa4ac98dfddb4875f36f64375880ec74e67d3f3b68db341978f83"
+    }
+  ],
+  "containerPath" : "/Users/allannsudo/Documents/Unreal Projects/UnrealLearningKitGames/Intermediate/ProjectFiles/UnrealLearningKitGames_Mac_UnrealLearningKitGamesGame.xcworkspace",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : true,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "macosx",
+      "sdk" : "macosx15.2",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64",
+        "arm64e",
+        "x86_64",
+        "x86_64h"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/allannsudo/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/allannsudo/Library/Developer/Xcode/DerivedData/UnrealLearningKitGames_Mac_UnrealLearningKitGamesGame-gqefiycpajgqhsdfzuxzmvetbvtp/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/allannsudo/Library/Developer/Xcode/DerivedData/UnrealLearningKitGames_Mac_UnrealLearningKitGamesGame-gqefiycpajgqhsdfzuxzmvetbvtp/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Development",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION" : "YES",
+          "SYMROOT" : "/Users/allannsudo/Documents/Unreal Projects/UnrealLearningKitGames/Binaries",
+          "UE_OVERRIDE_STAGE_DIR" : "/Users/allannsudo/Documents/Unreal Projects/UnrealLearningKitGames/Saved/StagedBuilds/Mac",
+          "UE_XCODE_BUILD_MODE" : "Package"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
